@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>À propos – ImmoLiqaa</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { background: #f9f9f9; color: #222; font-family: Arial,sans-serif; margin:0; }
+    .container { max-width:600px; margin:60px auto; background:#fff; border-radius:18px; box-shadow:0 2px 12px #0001; padding:36px 28px;}
+    h1 { color: #0077cc; margin-top:0; }
+    a { color:#0077cc; text-decoration:underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>À propos d’ImmoLiqaa</h1>
+    <p><b>ImmoLiqaa</b> est une initiative marocaine nouvelle génération dédiée à la démocratisation de la vente à terme immobilière.<br>
+    Notre objectif : offrir à chacun la possibilité d’acquérir ou de vendre un bien immobilier de façon flexible, transparente et sécurisée, grâce à des solutions adaptées à la réalité du marché marocain.</p>
+
+    <h3>Pourquoi la vente à terme ?</h3>
+    <p>Parce qu’elle offre des avantages uniques : achat facilité sans recours au crédit bancaire, versement d’un apport puis paiements échelonnés, et garanties de transaction pour les deux parties. ImmoLiqaa sélectionne chaque bien avec soin et accompagne vendeurs comme acquéreurs tout au long du processus.</p>
+    
+    <h3>Notre vision</h3>
+    <p>Rendre la propriété immobilière plus accessible, humaine et moderne, en s’appuyant sur la confiance, la pédagogie et la qualité de service.</p>
+
+    <h3>Nos engagements</h3>
+    <ul>
+      <li>Transparence sur chaque offre</li>
+      <li>Sélection rigoureuse des biens et vendeurs</li>
+      <li>Accompagnement personnalisé (conseils, suivi, réponses rapides)</li>
+    </ul>
+    <p>
+      Vous avez des questions ?<br>
+      Contactez-nous à tout moment, nous serons ravis d’en discuter et de vous aider à concrétiser vos projets immobiliers au Maroc.<br>
+      <a href="mailto:Contact.ImmoLiqaa@gmail.com">Contact.ImmoLiqaa@gmail.com</a>
+    </p>
+    <p><a href="index.html">&larr; Retour à l'accueil</a></p>
+  </div>
+</body>
+</html>

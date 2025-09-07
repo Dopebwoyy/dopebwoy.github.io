@@ -2,108 +2,30 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Biens immobiliers à vendre à terme</title>
+  <title>Biens immobiliers à vendre à terme – ImmoLiqaa</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
   <link rel="icon" type="image/png" href="favicon.png">
-
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #f9f9f9;
-    }
+    body { font-family: Arial, sans-serif; margin: 0; background: #f9f9f9; }
     header {
-      background: #0077cc;
-      color: #fff;
-      padding: 18px 0 16px 0;
-      text-align: center;
-      letter-spacing: 1px;
-      box-shadow: 0 2px 12px #0001;
-      border-bottom-left-radius: 18px;
-      border-bottom-right-radius: 18px;
+      background: #0077cc; color: #fff; padding: 18px 0 16px 0; text-align: center; letter-spacing: 1px;
+      box-shadow: 0 2px 12px #0001; border-bottom-left-radius: 18px; border-bottom-right-radius: 18px;
     }
-    .logo {
-      max-width: 165px;
-      margin: 0 auto 13px auto;
-      display: block;
-      background: transparent;
-      border-radius: 14px;
-      padding: 0;
-    }
-    h1 {
-      margin-top: 9px;
-      margin-bottom: 9px;
-      font-size: 1.62em;
-      letter-spacing: 0.6px;
-    }
-    .produits {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding: 40px 10px 10px 10px;
-      gap: 30px;
-    }
-    .carte {
-      background: #fff;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px #0002;
-      width: 330px;
-      padding: 16px;
-      text-align: center;
-      transition: box-shadow 0.2s;
-      border: 1px solid #eee;
-    }
-    .carte:hover {
-      box-shadow: 0 4px 16px #0003;
-    }
-    .carte img {
-      width: 100%;
-      height: 180px;
-      object-fit: cover;
-      border-radius: 6px;
-      margin-bottom: 8px;
-      background: #eee;
-    }
-    .carte h3 {
-      margin: 8px 0 2px 0;
-      font-size: 1.15em;
-    }
-    .carte p {
-      color: #0077cc;
-      margin: 0 0 10px 0;
-      font-weight: bold;
-    }
-    .carte ul {
-      list-style: none;
-      padding: 0;
-      margin: 5px 0 12px 0;
-      text-align: left;
-      font-size: 0.99em;
-      color: #444;
-    }
-    .carte ul li {
-      margin-bottom: 2px;
-    }
-    .btn {
-      background: #0077cc;
-      color: #fff;
-      padding: 10px 22px;
-      border: none;
-      border-radius: 5px;
-      font-size: 1em;
-      cursor: pointer;
-      transition: background 0.15s;
-      text-decoration: none;
-      display: inline-block;
-    }
-    .btn:hover {
-      background: #005fa3;
-    }
-    @media (max-width: 900px) {
-      .produits { flex-direction: column; align-items: center; }
-      .carte { width: 95%; max-width: 360px;}
-    }
+    .logo { max-width: 165px; margin: 0 auto 13px auto; display: block; }
+    h1 { margin-top: 9px; margin-bottom: 9px; font-size: 1.62em; letter-spacing: 0.6px; }
+    .nav a { color:#fff; text-decoration:underline; font-size:1.07em; }
+    .produits { display: flex; flex-wrap: wrap; justify-content: center; padding: 40px 10px 10px 10px; gap: 30px; }
+    .carte { background:#fff; border-radius:10px; box-shadow:0 2px 8px #0002; width:330px; padding:16px; text-align:center; transition: box-shadow .2s; border:1px solid #eee; }
+    .carte:hover { box-shadow:0 4px 16px #0003; }
+    .carte img { width:100%; height:180px; object-fit:cover; border-radius:6px; margin-bottom:8px; background:#eee; }
+    .carte h3 { margin:8px 0 2px 0; font-size:1.15em; }
+    .carte p { color:#0077cc; margin:0 0 10px 0; font-weight:bold; }
+    .carte ul { list-style:none; padding:0; margin:5px 0 12px 0; text-align:left; font-size:.99em; color:#444; }
+    .carte ul li { margin-bottom:2px; }
+    .btn { background:#0077cc; color:#fff; padding:10px 22px; border:none; border-radius:5px; font-size:1em; cursor:pointer; transition: background .15s; text-decoration:none; display:inline-block; }
+    .btn:hover { background:#005fa3; }
+    footer { text-align:center; color:#666; font-size:.95em; padding:28px 8px 34px; }
+    @media (max-width: 900px){ .produits{ flex-direction:column; align-items:center; } .carte{ width:95%; max-width:360px; } }
   </style>
 </head>
 <body>
@@ -111,28 +33,28 @@
     <img src="ChatGPT Image 27 juil. 2025, 18_36_43.png" alt="Logo ImmoLiqaa" class="logo">
     <h1>Biens immobiliers à vendre à terme</h1>
     <p style="margin-top:11px;">Vente à terme libre • Appartements & maisons au Maroc</p>
-    <p style="margin:15px 0 0 0;">
-      <a href="index.html" style="color:#fff;text-decoration:underline;font-size:1.07em;">Accueil</a>
-      &nbsp;|&nbsp;
-      <a href="apropos.html" style="color:#fff;text-decoration:underline;font-size:1.07em;">À propos</a>
+    <p class="nav" style="margin:15px 0 0 0;">
+      <a href="index.html">Accueil</a> &nbsp;|&nbsp;
+      <a href="vendre.html">Vendre un bien</a> &nbsp;|&nbsp;
+      <a href="apropos.html">À propos</a>
     </p>
   </header>
-  <section class="produits">
 
+  <section class="produits">
     <!-- Bien 1 – Casablanca -->
     <div class="carte">
       <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=600&q=80" alt="Appartement moderne Casablanca">
       <h3>Appartement moderne à Casablanca</h3>
       <p>Vente à terme libre</p>
       <ul>
-        <li><strong>Prix total :</strong> 2 400 000 MAD</li>
-        <li><strong>Apport initial :</strong> 330 000 MAD</li>
-        <li><strong>Mensualité :</strong> 12 000 MAD/mois pendant 15 ans</li>
-        <li><strong>Surface :</strong> 85 m²</li>
-        <li><strong>Quartier :</strong> Gauthier</li>
-        <li><strong>Chambres :</strong> 2</li>
+        <li><strong>Prix total :</strong> 2 400 000 MAD</li>
+        <li><strong>Apport initial :</strong> 330 000 MAD</li>
+        <li><strong>Mensualité :</strong> 12 000 MAD/mois pendant 15 ans</li>
+        <li><strong>Surface :</strong> 85 m²</li>
+        <li><strong>Quartier :</strong> Gauthier</li>
+        <li><strong>Chambres :</strong> 2</li>
       </ul>
-      <a href="mailto:Contact.ImmoLiqaa@gmail.com?subject=Intéressé(e)%20par%20l'appartement%20moderne%20Casablanca" class="btn">Me contacter</a>
+      <a class="btn" href="mailto:Contact.ImmoLiqaa@gmail.com?subject=Appartement%20moderne%20Casablanca">Me contacter</a>
     </div>
 
     <!-- Bien 2 – Marrakech -->
@@ -141,14 +63,14 @@
       <h3>Villa contemporaine à Marrakech</h3>
       <p>Vente à terme libre</p>
       <ul>
-        <li><strong>Prix total :</strong> 4 700 000 MAD</li>
-        <li><strong>Apport initial :</strong> 870 000 MAD</li>
-        <li><strong>Mensualité :</strong> 25 000 MAD/mois pendant 12 ans</li>
-        <li><strong>Surface :</strong> 220 m²</li>
-        <li><strong>Quartier :</strong> Route de Fès</li>
-        <li><strong>Chambres :</strong> 4</li>
+        <li><strong>Prix total :</strong> 4 700 000 MAD</li>
+        <li><strong>Apport initial :</strong> 870 000 MAD</li>
+        <li><strong>Mensualité :</strong> 25 000 MAD/mois pendant 12 ans</li>
+        <li><strong>Surface :</strong> 220 m²</li>
+        <li><strong>Quartier :</strong> Route de Fès</li>
+        <li><strong>Chambres :</strong> 4</li>
       </ul>
-      <a href="mailto:Contact.ImmoLiqaa@gmail.com?subject=Intéressé(e)%20par%20la%20villa%20Marrakech" class="btn">Me contacter</a>
+      <a class="btn" href="mailto:Contact.ImmoLiqaa@gmail.com?subject=Villa%20Marrakech">Me contacter</a>
     </div>
 
     <!-- Bien 3 – Tanger -->
@@ -157,16 +79,19 @@
       <h3>Appartement vue mer à Tanger</h3>
       <p>Vente à terme libre</p>
       <ul>
-        <li><strong>Prix total :</strong> 1 900 000 MAD</li>
-        <li><strong>Apport initial :</strong> 270 000 MAD</li>
-        <li><strong>Mensualité :</strong> 9 500 MAD/mois pendant 12 ans</li>
-        <li><strong>Surface :</strong> 68 m²</li>
-        <li><strong>Quartier :</strong> Malabata</li>
-        <li><strong>Chambres :</strong> 2</li>
+        <li><strong>Prix total :</strong> 1 900 000 MAD</li>
+        <li><strong>Apport initial :</strong> 270 000 MAD</li>
+        <li><strong>Mensualité :</strong> 9 500 MAD/mois pendant 12 ans</li>
+        <li><strong>Surface :</strong> 68 m²</li>
+        <li><strong>Quartier :</strong> Malabata</li>
+        <li><strong>Chambres :</strong> 2</li>
       </ul>
-      <a href="mailto:Contact.ImmoLiqaa@gmail.com?subject=Intéressé(e)%20par%20l'appartement%20Tanger" class="btn">Me contacter</a>
+      <a class="btn" href="mailto:Contact.ImmoLiqaa@gmail.com?subject=Appartement%20Tanger">Me contacter</a>
     </div>
-
   </section>
+
+  <footer>
+    © ImmoLiqaa — Contact : <a href="mailto:Contact.ImmoLiqaa@gmail.com">Contact.ImmoLiqaa@gmail.com</a>
+  </footer>
 </body>
 </html>
